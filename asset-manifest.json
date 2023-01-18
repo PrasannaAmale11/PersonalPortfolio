@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.1b1f97f6.css",
-    "main.js": "/PersonalPortfolio/static/js/main.ab19eb54.js",
-    "static/js/787.28cb0dcd.chunk.js": "/PersonalPortfolio/static/js/787.28cb0dcd.chunk.js",
-    "static/media/PrasannaResumeDev1_.pdf": "/PersonalPortfolio/static/media/PrasannaResumeDev1_.81bf4e54577bd86ff8cd.pdf",
-    "static/media/Profile.png": "/PersonalPortfolio/static/media/Profile.96ba541360d4ee7a27cc.png",
-    "index.html": "/PersonalPortfolio/index.html",
-    "main.1b1f97f6.css.map": "/PersonalPortfolio/static/css/main.1b1f97f6.css.map",
-    "main.ab19eb54.js.map": "/PersonalPortfolio/static/js/main.ab19eb54.js.map",
-    "787.28cb0dcd.chunk.js.map": "/PersonalPortfolio/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/PrasannaAmale11.github.io/static/css/main.885a664b.css",
+    "main.js": "/PrasannaAmale11.github.io/static/js/main.bdeba3c2.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PrasannaAmale11.github.io/static/js/787.28cb0dcd.chunk.js",
+    "static/media/PrasannaResumeDev1_.pdf": "/PrasannaAmale11.github.io/static/media/PrasannaResumeDev1_.81bf4e54577bd86ff8cd.pdf",
+    "static/media/Profile.png": "/PrasannaAmale11.github.io/static/media/Profile.96ba541360d4ee7a27cc.png",
+    "index.html": "/PrasannaAmale11.github.io/index.html",
+    "main.885a664b.css.map": "/PrasannaAmale11.github.io/static/css/main.885a664b.css.map",
+    "main.bdeba3c2.js.map": "/PrasannaAmale11.github.io/static/js/main.bdeba3c2.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PrasannaAmale11.github.io/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b1f97f6.css",
-    "static/js/main.ab19eb54.js"
+    "static/css/main.885a664b.css",
+    "static/js/main.bdeba3c2.js"
   ]
 }
