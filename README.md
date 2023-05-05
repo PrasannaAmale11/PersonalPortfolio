@@ -8,7 +8,9 @@ Hello and welcome to my personal portfolio! My name is Prasanna and I am a Front
 On this site, you can find a selection of my work and projects that demonstrate my skills and abilities. Whether you are a potential employer or just someone interested in my work, I hope you find something here that piques your interest.
 <h3>Technologies used</h3>
 
-<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/>
+<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg?sanitize=true" alt="ReactJS" style="height: 24px; width: 24px;">
+<img src="[https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg?sanitize=true](https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg?sanitize=true)" alt="ReactJS" style="height: 24px; width: 24px;">
+
 
 About Me
 I am mechanical graduate with good academic scores i live in maharashtra.
