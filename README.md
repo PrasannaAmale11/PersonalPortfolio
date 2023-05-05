@@ -9,7 +9,8 @@ On this site, you can find a selection of my work and projects that demonstrate 
 <h3>Technologies used</h3>
 
 <img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/> 
-<img src="https://i.imgur.com/W8YvJnQ.png" width="48" height="48"/> <img src="https://i.imgur.com/2ODQ2ck.png" width="48" height="48"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"  width="48" height="48"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"  width="48" height="48"/>
 
 
 
