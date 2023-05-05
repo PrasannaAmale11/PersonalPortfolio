@@ -26,3 +26,4 @@ Thank you for visiting my portfolio!
 ![Portfolio Dev  - Google Chrome 04-01-2023 21_40_32](https://user-images.githubusercontent.com/110029115/210599198-71003034-2cfe-4a58-9838-34b494943d9f.png)
 
 ![Portfolio Dev  - Google Chrome 04-01-2023 21_40_46](https://user-images.githubusercontent.com/110029115/210599034-4159d980-6f45-416a-966f-12e989aba122.png)
+<img src="https://img.icons8.com/color/48/000000/html-5--v1.png"/> <img src="https://img.icons8.com/color/48/000000/css3.png"/> <img src="https://img.icons8.com/color/48/000000/javascript--v2.png"/>
