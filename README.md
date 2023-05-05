@@ -1,6 +1,6 @@
 
 <h1>My Personal Portfolio</h1>
-<a href="https://prasanna-portfolio11.netlify.app/">Click Here</a>
+<a href="https://prasanna-portfolio11.netlify.app/" target="_blank">Click Here</a>
 [Published Here](https://prasanna-portfolio11.netlify.app/)
  
 
