@@ -14,16 +14,6 @@ On this site, you can find a selection of my work and projects that demonstrate 
 <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"  width="48" height="48"/>
 
 
-
-About Me
-I am mechanical graduate with good academic scores i live in maharashtra.
-
-My Work
-In this project i showcased my javascript and css skills.
-
-Contact Me
-If you have any questions or would like to work with me, please don't hesitate to contact me. You can find my email and social media links in the footer of this site.
-
 Thank you for visiting my portfolio!
 ### `This is how it looks`
 
