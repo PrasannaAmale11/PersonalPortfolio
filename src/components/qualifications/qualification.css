@@ -98,9 +98,13 @@ display: block;
 
 @media screen and (max-width:768px) {
  .qualification__container{
-   margin-right: var(--mb-1-5); 
+   margin-right: 0; 
    margin-left: var(--mb-1-5); 
  }
+ .footer{
+    margin-left: 1.2rem;
+}
+
 }
 
 @media screen and (max-width:576px){
@@ -110,6 +114,9 @@ display: block;
 
     .qualification__button{
         margin: 0 var(--mb-0-75);
+    }
+    .footer{
+        margin-left: 1.2rem;
     }
 }
 
