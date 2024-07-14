@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import "./header.css"
 
-function Header() {
+function  Header() {
 // ------------------------Change Header Background-------------
 
 window.addEventListener("scroll",function() {

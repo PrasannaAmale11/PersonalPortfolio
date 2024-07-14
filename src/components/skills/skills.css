@@ -1,5 +1,5 @@
 .skills__container{
-    grid-template-columns: repeat(2,350px);
+    grid-template-columns: repeat(2,460px);
     column-gap: 3rem;
     justify-content: center;
 }
@@ -54,21 +54,30 @@
 /* ----------------for large devices------------------- */
 @media screen and (max-width:992px){
   .skills__container{
-    grid-template-columns: max-content;
+   
     row-gap: 2rem;
-
+    grid-template-columns: repeat(1,500px);
   }
+  .skills__container{
+ 
+    grid-template-columns: repeat(1,550px);
+
+}  
   }
   
   /* --------------------for medium devices------------------- */
   
   @media screen and (max-width:576px) {
 .skills__container{
-    grid-template-columns: 1fr;
+ 
+    grid-template-columns: repeat(1,320px);
 
 }  
 .skills__content{
     padding: 1.5rem;
+}
+.skills__box{
+    column-gap: 0.8rem;
 }
 }
   
@@ -84,4 +93,5 @@
  .skills__name{
     font-size: var(--small-font-size);
  }
+ 
   }
