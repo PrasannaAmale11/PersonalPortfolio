@@ -55,7 +55,10 @@ display: block;
     font-weight: var(--font-medium);
 
 }
-
+.highlited{
+    font-size: 23px;
+    transition:all 0.1s linear;
+}
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);

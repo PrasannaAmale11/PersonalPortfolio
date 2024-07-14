@@ -166,6 +166,22 @@ img{
   align-items: center;
 }
 
+@keyframes flyAway {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+      transform: translateY(-23px) translateX(31px) rotate(-8deg);
+      opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-200px) translateX(100px) rotate(-15deg);
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 
 /* ------------------Media Queries --------------------*/
 /* ----------------for large devices------------------- */
