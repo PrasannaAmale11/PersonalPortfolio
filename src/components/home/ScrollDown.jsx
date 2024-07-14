@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './home.css';
 
 const ScrollDown = () => {
   return (
@@ -26,7 +27,8 @@ const ScrollDown = () => {
                   style={{
                     fill: "none",
                     stroke: "var(--title-color)",
-                    strokeWidth: "20px",
+                    strokeWidth: "30px",
+                    animation:"scroll 2s ease infinite"
                   }}
                 ></path>
                 <path
