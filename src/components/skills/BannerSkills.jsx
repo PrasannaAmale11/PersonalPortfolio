@@ -56,7 +56,7 @@ const BannerSkills = () => {
     <>
       <div className="space-50vh lightBG"></div>
 
-      <div className="racesWrapper">
+      <div className="racesWrapper " id="skills">
         <div className="races" ref={racesRef}>
           {repeatedSkills.map((skill, i) => (
             <h2 key={i}>{skill.name}</h2>
