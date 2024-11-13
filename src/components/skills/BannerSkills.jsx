@@ -10,7 +10,6 @@ const BannerSkills = () => {
 
   useEffect(() => {
     const races = racesRef.current;
-    console.log(races.offsetWidth);
 
     const getScrollAmount = () => {
       const racesWidth = races.scrollWidth;

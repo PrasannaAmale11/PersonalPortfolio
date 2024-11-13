@@ -10,12 +10,12 @@ const Qualification = () => {
 
   return (
     <section className=" qualification__section" id="portfolio">
-        <div className="projects_section">
+        <div className="projects_section ">
            <Projects/>
 
         </div>
 
-      <div className="">
+      <div className="section">
         <h2 className="section__title">Qualification</h2>
         <span className="section__subtitle">My personal journey</span>
 
