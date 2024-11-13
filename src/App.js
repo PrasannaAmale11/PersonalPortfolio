@@ -1,5 +1,4 @@
-// App.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -13,11 +12,22 @@ import BannerSkills from "./components/skills/BannerSkills";
 import Preloader from "./components/preloader/Preloader";
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(
+    () => !localStorage.getItem("isLoaded")
+  );
 
+  
   const handleLoadComplete = () => {
     setLoading(false);
+    localStorage.setItem("isLoaded", "true");
   };
+
+  
+  useEffect(() => {
+    if (localStorage.getItem("isLoaded")) {
+      setLoading(false);
+    }
+  }, []);
 
   return (
     <>
@@ -32,9 +42,8 @@ function App() {
             <Services />
             <Qualification />
             <Contact />
-         
-          <Footer />
-          <Scrollup />
+            <Footer />
+            <Scrollup />
           </main>
         </>
       )}
