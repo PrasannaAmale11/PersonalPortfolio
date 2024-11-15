@@ -152,6 +152,13 @@
     margin-bottom: var(--mb-3);
 }
 
+.hovered_circle{
+  background: #000000;
+background: -webkit-linear-gradient(77deg, #000000 0%, #7f7f7f 100%);
+background: linear-gradient(77deg, #000000 0%, #7f7f7f 100%);
+}
+
+
 
 
 /* ------------------Media Queries --------------------*/
