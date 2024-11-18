@@ -16,6 +16,14 @@ export const projectData = [
       "interSocial a real-time chatting application with an attractive UI/UX. interSocial allows users to connect and chat with anyone who is on the platform.",
   },
   {
+    backgroundImage: "https://i.ibb.co/MBGSz6J/Claw-Charge-Google-Chrome-19-11-2024-00-23-06.png",
+    codeSource: "https://clawcharg.netlify.app/",
+    liveLink: "https://clawcharg.netlify.app/",
+    projectTitle: "ClawCharge",
+    projectDetail:
+      "ClawCharge is an interactive 3D web application that delivers an engaging user experience with dynamic graphics and smooth animations.",
+  },
+  {
     backgroundImage: "https://i.ibb.co/FKgDjT2/You-Tube-Clone-Google-Chrome-13-11-2024-23-19-52.png",
     codeSource: "https://github.com/PrasannaAmale11/youtube-clone",
     liveLink: "https://youtube-clone-react11.netlify.app/",
@@ -38,5 +46,5 @@ export const projectData = [
     projectTitle: "AI-Message Generator",
     projectDetail:
       "AI-Message Generator is a chrome Extension that allows users to generate text for linkedIn chat using prompts.",
-  },
+  }, 
 ];

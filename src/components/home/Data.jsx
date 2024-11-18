@@ -62,6 +62,8 @@ const Data = () => {
     };
   }, []);
   return (
+    <>
+  
     <div className="home__data">
       <div
         ref={circleRef}
@@ -163,6 +165,7 @@ const Data = () => {
         </svg>
       </a>
     </div>
+    </>
   );
 };
 
