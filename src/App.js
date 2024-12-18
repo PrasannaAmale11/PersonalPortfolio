@@ -9,25 +9,48 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Scrollup from "./components/scrollup/ScrollUp";
 import BannerSkills from "./components/skills/BannerSkills";
+import reactIcon from "./assests/skillsIcons/reactIcon.svg";
+import nodeIcon from "./assests/skillsIcons/nodejsicon.svg";
+import mongoIcon from "./assests/skillsIcons/mongodb.svg";
+import expressIcon from "./assests/skillsIcons/expressjs.svg";
+import nextjsICon from "./assests/skillsIcons/nextjs.svg";
+import threejsIcon from "./assests/skillsIcons/threejs.svg";
+import javascriptIcon from "./assests/skillsIcons/javascript.svg";
+import typescriptIcon from "./assests/skillsIcons/typescript.svg";
+import htmlIcon from "./assests/skillsIcons/html.svg";
+import cssIcon from "./assests/skillsIcons/css.svg";
+import socketioIcon from "./assests/skillsIcons/socketIo.svg";
 import Preloader from "./components/preloader/Preloader";
 
 function App() {
   const [loading, setLoading] = useState(
-    () => !localStorage.getItem("isLoaded")
+    () => !sessionStorage.getItem("isLoaded")
   );
 
-  
   const handleLoadComplete = () => {
     setLoading(false);
-    localStorage.setItem("isLoaded", "true");
+    sessionStorage.setItem("isLoaded", "true");
   };
 
-  
   useEffect(() => {
-    if (localStorage.getItem("isLoaded")) {
+    if (sessionStorage.getItem("isLoaded")) {
       setLoading(false);
     }
   }, []);
+
+  const slides = [
+    { src: mongoIcon },
+    { src: expressIcon },
+    { src: reactIcon },
+    { src: nodeIcon },
+    { src: nextjsICon },
+    { src: threejsIcon },
+    { src: javascriptIcon },
+    { src: typescriptIcon },
+    { src: htmlIcon },
+    { src: cssIcon },
+    { src: socketioIcon },
+  ];
 
   return (
     <>
@@ -38,7 +61,9 @@ function App() {
           <main className="main">
             <Home />
             <About />
-            <BannerSkills />
+          </main>
+          <BannerSkills slides={slides} duration={25} />
+          <main className="main">
             <Services />
             <Qualification />
             <Contact />

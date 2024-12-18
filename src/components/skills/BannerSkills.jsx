@@ -1,70 +1,41 @@
-import React, { useEffect, useRef } from "react";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import "./bannerSkills.css";
-gsap.registerPlugin(ScrollTrigger);
+import React from "react";
+import { motion } from "framer-motion";
 
-const BannerSkills = () => {
-  const racesRef = useRef(null);
-  const scrollTriggerRef = useRef(null);
-
-  useEffect(() => {
-    const races = racesRef.current;
-
-    const getScrollAmount = () => {
-      const racesWidth = races.scrollWidth;
-      return -(racesWidth - window.innerWidth);
-    };
-
-    // Create a tween for GSAP
-    const tween = gsap.to(races, {
-      x: getScrollAmount,
-      duration: 5,
-      ease: "none",
-    });
-
-    scrollTriggerRef.current = ScrollTrigger.create({
-      trigger: ".racesWrapper",
-      start: "top 20%",
-      end: () => `+=${getScrollAmount() * -1}`,
-      pin: true,
-      animation: tween,
-      scrub: 1,
-      invalidateOnRefresh: true,
-      markers: false,
-    });
-
-    return () => {
-      scrollTriggerRef.current.kill();
-    };
-  }, []);
-  const frontendSkills = [
-    { name: "Next.JS", level: "Advanced" },
-    { name: "React.JS", level: "Advanced" },
-  ];
-
-  const backendSkills = [
-    { name: "Node.JS", level: "Advanced" },
-    { name: "Express.JS", level: "Advanced" },
-    { name: "MongoDB", level: "Advanced" },
-  ];
-
-  const repeatedSkills = [...frontendSkills, ...backendSkills];
-
+const BannerSkills = ({ slides, duration = 10 }) => {
+  const duplicatedSlides = [...slides, ...slides];
   return (
-    <>
-      <div className="space-50vh lightBG"></div>
+    <div
+      className="relative h-full overflow-hidden lg:py-12 py-6 mx-auto mt-[7.5rem] mb-10 "
+      style={{ width: "100%" }}
+    >
+      <div className=" absolute inset-0 z-20 before:absolute before:left-0 before:top-0 before:w-[25%] before:h-full before:bg-gradient-to-r before:from-[#fafafa] before:to-transparent before:filter  after:absolute after:right-0 after:top-0 after:w-1/4 after:h-full after:bg-gradient-to-l after:from-[#fafafa] after:to-transparent after:filter"></div>
 
-      <div className="racesWrapper " id="skills">
-        <div className="races" ref={racesRef}>
-          {repeatedSkills.map((skill, i) => (
-            <h2 key={i}>{skill.name}</h2>
-          ))}
-        </div>
-      </div>
-
-      <div className="space-100vh lightBG"></div>
-    </>
+      <motion.div
+        className="flex gap-14"
+        animate={{
+          x: ["-100%", "0%"],
+        }}
+        transition={{
+          ease: "linear",
+          duration,
+          repeat: Infinity,
+        }}
+      >
+        {duplicatedSlides.map((slide, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0  flex items-center justify-center flex-col rounded-lg"
+            style={{ width: `${100 / slides.length}%` }}
+          >
+            <img
+              src={slide.src}
+              alt={slide.alt || `slide-${index}`}
+              className="size-32 md:size-24 object-center object-contain cursor-pointer"
+            />
+          </div>
+        ))}
+      </motion.div>
+    </div>
   );
 };
 
