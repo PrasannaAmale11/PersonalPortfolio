@@ -72,7 +72,7 @@ const Projects = () => {
               <span className="title" title={`${item.projectTitle} Project `}>
                 {item.projectTitle}
               </span>
-              <div className="regular-text ">{item.projectDetail}</div>
+              <div className="regular-text ">{item.projectDetail?.split(" ").length > 30 ? item.projectDetail.split(" ").slice(0,20).join(" ")+"..." : item.projectDetail }</div>
             </div>
           </div>
         ))}

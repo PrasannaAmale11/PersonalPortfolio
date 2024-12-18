@@ -16,6 +16,14 @@ export const projectData = [
       "interSocial a real-time chatting application with an attractive UI/UX. interSocial allows users to connect and chat with anyone who is on the platform.",
   },
   {
+    backgroundImage: "https://i.ibb.co/TmNPhys/Screenshot-2024-12-18-200801.png",
+    codeSource: "https://github.com/PrasannaAmale11/imageParallaxWebsite",
+    liveLink: "https://yourbrandparallax.netlify.app/",
+    projectTitle: "YourBrand",
+    projectDetail:
+      "imageParallaxWebsite is a mock website for brands featuring a smooth parallax image effect while scrolling. Built with React as the frontend and leveraging Lenis scrolling, this website creates a visually stunning and seamless user experience.",
+  },
+  {
     backgroundImage: "https://i.ibb.co/MBGSz6J/Claw-Charge-Google-Chrome-19-11-2024-00-23-06.png",
     codeSource: "https://clawcharg.netlify.app/",
     liveLink: "https://clawcharg.netlify.app/",
