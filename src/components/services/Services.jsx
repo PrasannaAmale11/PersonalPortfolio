@@ -56,7 +56,7 @@ const Services = () => {
 
       <div className="services__container container grid">
         {servicesData.map((service) => (
-          <div className="services__content" key={service.id}>
+          <div className="services__content hover:border-black duration-200 ease-in flex flex-col justify-between" key={service.id}>
             <div>
               <i className={`${service.icon} services__icon`}></i>
               <h3 className="services__title">{service.title}</h3>
@@ -64,7 +64,7 @@ const Services = () => {
 
             <span
               onClick={() => toggleService(service.id)}
-              className="services__button"
+              className="services__button hover:gap-2 duration-200 ease-in"
             >
               View more <i className="uil uil-arrow-right services__button-icon"></i>
             </span>
@@ -79,7 +79,7 @@ const Services = () => {
               <div className="services__modal-content">
                 <i
                   onClick={() => toggleService(null)}
-                  className="uil uil-times services__modal-close"
+                  className="uil uil-times services__modal-close hover:scale-125 ease-in duration-200"
                 ></i>
 
                 <h3 className="services__modal-title">{service.title}</h3>
